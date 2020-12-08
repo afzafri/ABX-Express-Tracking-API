@@ -27,8 +27,6 @@
 				<th>Time</th>
 				<th>Process</th>
 				<th>Location</th>
-				<th>City</th>
-				<th>Remarks</th>
 			</tr>
 			<?php
 				
@@ -42,8 +40,6 @@
 							<td>".$parsed['data'][$i]['time']."</td>
 							<td>".$parsed['data'][$i]['process']."</td>
 							<td>".$parsed['data'][$i]['location']."</td>
-							<td>".$parsed['data'][$i]['city']."</td>
-							<td>".$parsed['data'][$i]['remark']."</td>
 						</tr>
 						";
 				}
