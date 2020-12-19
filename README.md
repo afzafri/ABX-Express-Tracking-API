@@ -2,7 +2,7 @@
 Return JSON formatted string of ABX Express Tracking details
 
 # Installation
-- Drop all files into your server
+```composer require afzafri/abx-express-tracking-api:dev-master```
 
 # Usage
 - ```http://site.com/api.php?trackingNo=CODE```
